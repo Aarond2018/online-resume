@@ -85,6 +85,7 @@ h3 {
 .header-links li a{
   display: flex;
   text-decoration: none;
+  align-items: center;
 }
 
 .header-links li a i {
@@ -226,10 +227,6 @@ h3 {
   .header-links {
     display: grid;
     grid-template-columns: 50% 50%;
-  }
-
-  .header-links li {
-    align-items: center;
   }
 
   .project {
